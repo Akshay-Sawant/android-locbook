@@ -1,0 +1,247 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.mars.android.locbook.BookingStepSecond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/field_one"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/filled_container"
+                android:gravity="center"
+                android:text="No.Of Tickets"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/adult_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/field_one"
+                android:backgroundTint="#263238"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/child_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/adult_spinner"
+                android:backgroundTint="#263238"
+                android:spinnerMode="dropdown" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/field_two"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/filled_container"
+                android:gravity="center"
+                android:text="Ticket Type "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="Single"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_ticket_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/type_single"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/type_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="-32dp"
+                    android:buttonTint="@color/colorPrimary" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-80dp"
+                android:layout_marginTop="4dp"
+                android:text="Return"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/field_three"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/filled_container"
+                android:gravity="center"
+                android:text="Train Type "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/train_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/field_three"
+                android:text="Ordinary"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/field_forth"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/filled_container"
+                android:gravity="center"
+                android:text="Class"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="I"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_ticket_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/first_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="7dp"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/second_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="-32dp"
+                    android:buttonTint="@color/colorPrimary" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-45dp"
+                android:layout_marginTop="4dp"
+                android:text="II"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/field_sixth"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/filled_container"
+                android:gravity="center"
+                android:text="Payment Type"
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/payment_spinner"
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/field_sixth"
+                android:spinnerMode="dropdown" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/proceed_to_step_three"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_enabled"
+            android:text="Proceed"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</FrameLayout>
