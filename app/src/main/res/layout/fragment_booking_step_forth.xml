@@ -1,11 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#e5f5f5f5"
-    android:orientation="vertical"
-    tools:context="com.mars.android.locbook.BookingStepForth">
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,9 +17,10 @@
             android:layout_height="120dp"
             android:elevation="6dp"
             android:padding="10dp"
-            android:src="@color/colorAccent"
-            app:border_color="@color/colorAccent"
-            app:border_width="1dp" />
+            android:src="@color/colorAccent" />
+
+        <!--        app:border_color="@color/colorAccent"-->
+        <!--        app:border_width="1dp"-->
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="90dp"

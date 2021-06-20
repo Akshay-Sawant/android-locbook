@@ -48,7 +48,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/bus_stop_view"
             android:layout_width="140dp"
             android:layout_height="130dp"
@@ -91,7 +91,7 @@
                     android:text="Bus Stop"
                     android:textSize="16sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
