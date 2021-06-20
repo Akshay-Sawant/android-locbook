@@ -1,8 +1,10 @@
-package com.android.locbookapp;
+package com.android.locbookapp.ui;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.locbookapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
