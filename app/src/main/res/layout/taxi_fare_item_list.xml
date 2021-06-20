@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp">
+
+        <TextView
+            android:id="@+id/kilo_meter"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="kilometer"
+            android:textColor="#424242"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/day_fare"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="105dp"
+            android:gravity="center"
+            android:text="day fare"
+            android:textColor="#827717"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/night_fare"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="200dp"
+            android:gravity="center"
+            android:text="night fare"
+            android:textColor="#0D47A1"
+            android:textSize="17sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
