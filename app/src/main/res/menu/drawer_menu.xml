@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/setting_icon"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/emergency"
+            android:icon="@drawable/emergency_icon"
+            android:title="Emergency" />
+
+        <item
+            android:id="@+id/introduction"
+            android:icon="@drawable/intro_icon"
+            android:title="LocBook working" />
+
+        <item
+            android:id="@+id/blog"
+            android:icon="@drawable/blog_icon"
+            android:title="Blog" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/rate_icon"
+            android:title="Rate this app" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share_icon"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/faq_icon"
+            android:title="FAQ" />
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/signout_icon"
+            android:title="Signout" />
+    </group>
+
+    <group
+        android:id="@+id/menu_tandc"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/tandc"
+            android:title="Terms and Condition   |   Privacy Policy" />
+    </group>
+</menu>
