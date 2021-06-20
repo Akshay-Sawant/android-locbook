@@ -1,3 +1,248 @@
 <resources>
-    <string name="app_name">LocBook App</string>
+    <string name="app_name">LocBook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="stepLabels">
+        <item>Approval</item>
+        <item>Processed</item>
+        <item>Shipped</item>
+        <item>Delivery</item>
+    </string-array>
+
+    <!-- Terms and Condition -->
+
+    <string name="user_policy">
+Please read the following Terms and Conditions carefully before registering, accessing, browsing, downloading or using the Site or
+by using of applications, content, products, and services (the “ Services ”) made available by “LocBook”. Your access and use of the
+Services constitutes your agreement to be bound by these Terms, which establishes a contractual relationship between you and LocBook.
+You agree to be bound by these Terms and Conditions set forth below including any additional guidelines and future modifications.
+If at any time you do not agree to these Terms and Conditions or do not wish to be bound by these Terms and Conditions,
+you may not access or use the mobile app and immediately terminate your use of the services.
+These Terms and Conditions expressly supersede prior agreements or arrangements with you. Locbook may immediately terminate these
+Terms or any Services with respect to you, or generally cease offering or deny access to the Services or any portion thereof,
+at any time for any reason. LocBook may amend the Terms and Conditions related to the Services from time to time without any
+prior notification. Amendments will be effective upon LocBook’s posting of such updated Terms and Conditions at this location or the
+amended policies or supplemental terms on the applicable Service. Your continued access or use of the Services after such posting
+constitutes your consent to be bound by the Terms and Conditions, as amended.
+    </string>
+
+    <!-- the services -->
+
+    <string name="services">
+        The Services constitute a technology platform that enables users of LocBook’s mobile applications provided as part of the Services 
+        (each, an “ Application ”) to make Tickets. Unless otherwise agreed by LocBook in a separate written agreement with you, 
+        the Services are made available solely for your personal, non-commercial use.
+    </string>
+
+    <!-- your use of services -->
+
+    <string name="user_requirement">
+        The Service is not available for use by persons under the age of 18. You may not authorize third parties to use your Account,
+        and you may not allow persons under the age of 18 to receive the Services from Third Party Providers unless they are accompanied
+        by you. You may not assign or otherwise transfer your Account to any other person or entity. You agree to comply with all
+        applicable laws when using such Services, and you may only use the Services for lawful purposes. You will not, in your use of
+        the Services, cause nuisance, annoyance, inconvenience, or property damage, whether to the Third Party Provider or any other party.
+        In certain instances you may be asked to provide proof of identity to access or use the Services, and you agree that you may be
+        denied access to or use of the Services if you refuse to provide proof of identity.
+    </string>
+
+    <string name="text_messeging">
+        By creating an Account, you agree that the Services may send you informational text (SMS) messages, push notifications as part of 
+        the normal business operation of your use of the Services. You may opt-out of receiving text (SMS) messages, notification from LocBook
+        at any time by sending an email to  locbook@gmail.com indicating that you no longer wish to receive such messages, along with the
+        phone number of the mobile device receiving the messages. You acknowledge that opting out of receiving text (SMS) messages may 
+        impact your use of the Services.
+    </string>
+
+    <string name="net_access">
+        You are responsible for obtaining the data network access necessary to use the Services. Your mobile network’s data and messaging
+        rates and fees may apply if you access or use the Services from a wireless-enabled device and you shall be responsible for such
+        rates. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use the Services and
+        Applications and any updates thereto. LocBook does not guarantee that the Services, or any portion thereof, will function on any
+        particular hardware or devices. In addition, the Services may be subject to malfunctions and delays inherent in the use of the
+        Internet and electronic communications.
+    </string>
+
+    <!-- payment -->
+
+    <string name="payment">
+        You understand that use of the Services may result in charges to you for the services you receive from a Third Party Provider.
+        After you have received services obtained through your use of the Service, LocBook will facilitate your payment of the applicable
+        Charges on behalf of the Third Party Provider through its associate Payment gateway. Payment of the Charges in such manner shall
+        be considered the same as payment made directly by you to the Third Party Provider. Charges will be inclusive of applicable taxes
+        where required by law.
+        Charges paid by you are final and non-refundable, unless otherwise determined by LocBook. All Charges are due immediately and
+        payment will be facilitated by LocBook using the preferred Payment Gateway as designated in your Account, after which LocBook will
+        send you a payment confirmation by email. If your primary Payment Gateway is determined to be expired, invalid, unavailable or
+        otherwise not able to be charged, you agree that LocBook may use a secondary Payment Gateway (if available) to claim the charge.
+    </string>
+
+    <string name="refund_policy">
+        All sales of Tickets are final with no refund or exchange permitted. You are responsible for the mobile number. LocBook is not
+        responsible for any purchase of Tickets for an incorrect details.
+    </string>
+
+    <!-- Privacy_policy -->
+
+    <string name="info">
+        We value your trust and privacy. This Privacy Policy is in accordance with the Indian Information Technology Act, 2000 and the
+        Information Technology (Reasonable security and procedures and sensitive personal data or information) Rules, 2011 prescribed
+        thereunder, (“Applicable Law”) and provides you with details about the manner in which your data is collected, stored and used by us.
+        This Privacy Policy is intended to provide you with clear and complete information about your treatment of the personally
+        identifiable data and information that LocBook may collect in connection with the services offered by LocBook and the way your
+        personally identifiable information and data is stored and used by LocBook. You are advised to read this Privacy Policy carefully,
+        if you do not agree to the terms of the policy, please do not use or access LocBook.
+        Personally Identifiable Information means any information that relates to a natural person, which, either directly or indirectly,
+        in combination with other information available or likely to be available with LocBook, is capable of identifying such person.
+        Therefore information such as your name, age, gender, date of birth, telephone/mobile number, e-mail ID, current location, and
+        any other personal information that we collect, in combination with any other information about you, which is capable of identifying
+        yourself, is known as personally identifiable information.
+    </string>
+
+    <string name="security">
+        In certain areas LocBook uses industry-standard encryption to protect data transmissions.
+    </string>
+
+    <string name="changes_in_privacy_policy">
+        LocBook may amend this privacy policy from time to time. If LocBook makes any substantial changes in the way Ridlr uses your
+        personally identifiable information LocBook will notify you by posting a prominent announcement on LocBook.
+    </string>
+
+    <!-- about us -->
+    <string name="about_us">
+        LocBook tells you exactly when the next bus, train or metro rail will arrive so you can plan your journey with ease, even
+        using multiple modes of transport. Timetables can be used without an internet connection to view them.
+    </string>
+
+    <!-- station name array list -->
+    <string-array name="station_names">
+
+        <item>Airoli</item>
+        <item>Ambernath</item>
+        <item>Ambivli</item>
+        <item>Andheri</item>
+        <item>Asangaon</item>
+        <item>Badlapur</item>
+        <item>Bandra</item>
+        <item>Bhandup</item>
+        <item>Bhayandar</item>
+        <item>Bhivpuri Road</item>
+        <item>Bhivandi</item>
+        <item>Boisar</item>
+        <item>Borivali</item>
+        <item>Byculla</item>
+        <item>Belapur CBD</item>
+        <item>Charni Road</item>
+        <item>Chembur</item>
+        <item>CST</item>
+        <item>Chinchpokli</item>
+        <item>Chunabhatti</item>
+        <item>Churchgate</item>
+        <item>Cotton green</item>
+        <item>Curey Road</item>
+        <item>Dadar</item>
+        <item>Dahanu Road</item>
+        <item>Dahisar</item>
+        <item>Dativali</item>
+        <item>Diva junction</item>
+        <item>Dockyard Road</item>
+        <item>Dolavli</item>
+        <item>Dombivli</item>
+        <item>Elphinstone Road</item>
+        <item>Ghansoli</item>
+        <item>Ghatkopar</item>
+        <item>Goregaon</item>
+        <item>Govandi</item>
+        <item>Grant Road</item>
+        <item>Guru Teg Bahadur Nagar</item>
+        <item>Jogeshvari</item>
+        <item>Juchandra Road</item>
+        <item>Juhi nagar</item>
+        <item>Kalamboli</item>
+        <item>Kalva</item>
+        <item>Kalyan</item>
+        <item>Kaman Road</item>
+        <item>Kandivali</item>
+        <item>Kanjurmarg</item>
+        <item>Karjat</item>
+        <item>Kasara</item>
+        <item>Kelavli</item>
+        <item>Kelve Road</item>
+        <item>Khadavli</item>
+        <item>Khandeshvar</item>
+        <item>Khar Road</item>
+        <item>Kharbao</item>
+        <item>Khardi</item>
+        <item>Kharghar</item>
+        <item>Khopoli</item>
+        <item>Kings Circle</item>
+        <item>Kopar</item>
+        <item>Kopar khairane</item>
+        <item>Kurla</item>
+        <item>Lower Parel</item>
+        <item>Lowjee</item>
+        <item>Mahalaxmi</item>
+        <item>Mahim</item>
+        <item>Malad</item>
+        <item>Mankhurd</item>
+        <item>Mansarovar</item>
+        <item>Marine Line</item>
+        <item>Masjid Bundar</item>
+        <item>Matunga</item>
+        <item>Matunga Road</item>
+        <item>Mumbai Central</item>
+        <item>Meera Road</item>
+        <item>Mumbra</item>
+        <item>Nahur</item>
+        <item>Naigaon</item>
+        <item>Nalasopara</item>
+        <item>Nearl</item>
+        <item>Nerul</item>
+        <item>Navade Road</item>
+        <item>Nilaje</item>
+        <item>Palghar</item>
+        <item>Palasdari</item>
+        <item>Panvel</item>
+        <item>Parel</item>
+        <item>Rabale</item>
+        <item>Ram Mandir</item>
+        <item>Roha</item>
+        <item>Sandhurst Road</item>
+        <item>Sanpada</item>
+        <item>Santacruz</item>
+        <item>Seawoods-Daravi</item>
+        <item>Saphale</item>
+        <item>Sion</item>
+        <item>Shahad</item>
+        <item>Shelu</item>
+        <item>Thane</item>
+        <item>Thakurli</item>
+        <item>Titwala</item>
+        <item>Turbe</item>
+        <item>Ulhasnagar</item>
+        <item>Umroli</item>
+        <item>Wadala Road</item>
+        <item>Vaitarna</item>
+        <item>Vangaon</item>
+        <item>Vangani</item>
+        <item>Vasai Road</item>
+        <item>Vashi</item>
+        <item>Vasind</item>
+        <item>Vidyavihar</item>
+        <item>Vikhroli</item>
+        <item>Vileparle</item>
+        <item>Virar</item>
+        <item>Vithalwadi</item>
+
+    </string-array>
+
 </resources>
