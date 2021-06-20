@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="3dp"
+        android:text="Chembur"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/chembur_list_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_enabled"
+        android:backgroundTint="@color/fabColor"
+        android:rotation="270"
+        android:src="@drawable/arrow_forward_icon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="-36dp"
+            android:src="@drawable/track_icon" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/wadala_list_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/custom_button_enabled"
+        android:backgroundTint="#CDDC39"
+        android:rotation="90"
+        android:src="@drawable/arrow_forward_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="wadala"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="Choose Your Direction"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
