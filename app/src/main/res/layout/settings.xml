@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <include
+            layout="@layout/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_id"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@id/app_bar"
+        android:layout_marginBottom="0.3dp"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:src="@drawable/profileimg_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Locbook user"
+                android:textColor="#000000"
+                android:textSize="18.5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif"
+                android:text="+91 9823095678"
+                android:textSize="13.5sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground">
+
+        <LinearLayout
+            android:id="@+id/notifications_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/notification_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35dp"
+                android:fontFamily="sans-serif"
+                android:text="Notification"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="120dp"
+                android:checked="true"
+                app:buttonTintMode="multiply"
+                app:kswAnimationDuration="100"
+                app:kswBackColor="@color/textField"
+                app:kswThumbColor="@android:color/holo_blue_bright"
+                app:kswThumbRadius="20dp" />
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="0.3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="-255dp"
+                android:background="#E0E0E0" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/manage_space"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/managespace_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35dp"
+                android:fontFamily="sans-serif"
+                android:text="Manage Space"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="0.3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="-117dp"
+                android:background="#E0E0E0" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/clear_cache"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/cache_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35dp"
+                android:fontFamily="sans-serif"
+                android:text="Clear Cache"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="0.3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="-97dp"
+                android:background="#E0E0E0" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/about_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/about_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35dp"
+                android:fontFamily="sans-serif"
+                android:text="About and Help"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="0.3dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="-121dp"
+                android:background="#E0E0E0" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:id="@+id/app_info"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/app_info_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:fontFamily="sans-serif"
+                android:text="App Info"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="Make In India" />
+
+</LinearLayout>
