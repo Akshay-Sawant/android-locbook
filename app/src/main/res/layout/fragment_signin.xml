@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/triangle"
+        android:rotation="180" />
+
+    <LinearLayout
+        android:id="@+id/usr_field"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:background="@drawable/icon_container_container"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/icon_container">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/un_icon" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/textfield"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pass_field"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/icon_container_container"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/icon_container">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/key_icon" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/textfield"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="179dp"
+        android:text="Stay logged in"
+        android:textColor="@color/textField"
+        android:textStyle="normal" />
+
+    <com.kyleduo.switchbutton.SwitchButton
+        android:id="@+id/stay_logged_in_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="52dp"
+        android:checked="true"
+        android:enabled="true"
+        app:kswAnimationDuration="100"
+        app:kswBackRadius="10dp"
+        app:kswThumbColor="@color/colorAccent"
+        app:kswThumbMarginBottom="-7dp"
+        app:kswThumbMarginLeft="-3dp"
+        app:kswThumbMarginRight="-3dp"
+        app:kswThumbMarginTop="-7dp"
+        app:kswThumbRadius="50dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/custom_button_enabled"
+        android:fontFamily="serif"
+        android:onClick="SignInToApp"
+        android:text="Login to my account"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/forget_pass_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="74dp"
+        android:clickable="true"
+        android:text="forget password?"
+        android:textColor="@color/textField"
+        android:textSize="13sp"
+        android:textStyle="normal" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="87dp"
+        android:background="@color/textField" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+</FrameLayout>
