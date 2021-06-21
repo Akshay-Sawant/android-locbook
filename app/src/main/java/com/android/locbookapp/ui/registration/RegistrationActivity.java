@@ -18,8 +18,8 @@ public class RegistrationActivity extends AppCompatActivity {
     ViewPagerAdapter viewPagerAdapter;
     CoordinatorLayout coordinatorLayout;
     Context context;
-    String Username;
-    String Userid;
+    public String Username;
+    public String Userid;
     private Toolbar toolbar;
     private ViewPager viewPager;
     private SmartTabLayout smartTabLayout;
