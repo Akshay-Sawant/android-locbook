@@ -47,4 +47,5 @@ dependencies {
     implementation 'com.kyleduo.switchbutton:library:2.0.3'
     implementation 'com.nightonke:blurlockview:1.0.0'
     implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.22'
 }
