@@ -43,4 +43,5 @@ dependencies {
     implementation 'com.github.badoualy:stepper-indicator:1.0.7'
     implementation 'com.miguelcatalan:materialsearchview:1.4.0'
     implementation 'com.github.clans:fab:1.6.4'
+    implementation 'eu.ocathain.com.sun.mail:javax.mail:1.5.2'
 }
