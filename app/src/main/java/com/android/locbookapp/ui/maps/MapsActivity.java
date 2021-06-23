@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
@@ -241,22 +242,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onSearch(View view) {
         EditText location_tf = (EditText) findViewById(R.id.mapsearch);
         String location = location_tf.getText().toString();
-        List<android.location.Address> addressList = null;
+        List<Address> addressList;
         if (location != null || !location.equals("")) {
             Geocoder geocoder = new Geocoder(this);
             try {
                 addressList = geocoder.getFromLocationName(location, 1);
 
-
+                Address address = addressList.get(0);
+                LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
+                mMap.addMarker(new MarkerOptions().position(latLng).title("Searched Position"));
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-            android.location.Address address = addressList.get(0);
-            LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
-            mMap.addMarker(new MarkerOptions().position(latLng).title("Searched Position"));
-            mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
-
         }
     }
 
