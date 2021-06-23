@@ -44,6 +44,14 @@ public class Train extends Fragment {
             }
         });
 
+        if (savedInstanceState == null) {
+            FragmentManager fm = getFragmentManager();
+            FragmentTransaction ft = fm.beginTransaction();
+            Central central = new Central();
+            ft.add(R.id.local_container, central);
+            ft.commit();
+        }
+
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
