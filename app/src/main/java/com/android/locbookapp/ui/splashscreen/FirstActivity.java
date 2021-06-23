@@ -20,7 +20,7 @@ import com.android.locbookapp.R;
 import com.android.locbookapp.data.LocBookDatabase;
 import com.android.locbookapp.data.introManager;
 import com.android.locbookapp.ui.registration.RegistrationActivity;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.github.clans.fab.FloatingActionButton;
 
 public class FirstActivity extends Activity {
     private static int ALL_PERMISSION_REQUEST_CODE = 124;
